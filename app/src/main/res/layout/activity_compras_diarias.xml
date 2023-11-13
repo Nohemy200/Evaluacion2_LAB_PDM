@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5CCDDDF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/tvComprasDiarias"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="                 Mi compra del dia"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="62dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="+"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Articulo"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="number|numberDecimal"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtCantidd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGuadar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvPresupuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Presupuesto"
+        android:textSize="19sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARRITO"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="16dp"
+        android:hint="Total"
+        android:textSize="24sp" />
+</LinearLayout>

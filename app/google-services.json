@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "38171875520",
+    "project_id": "evaluacion2-8948a",
+    "storage_bucket": "evaluacion2-8948a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38171875520:android:4b01aa04fa5d9a9c40b525",
+        "android_client_info": {
+          "package_name": "com.example.evaluacion2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFApxdANsheDzhJy3k1yt3kC3Gjbo5tpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
